@@ -1,0 +1,1 @@
+{"root":["./src/main.tsx","./src/app/app.tsx","./src/app/appshell.tsx","./src/components/commandpalette.tsx","./src/components/inspector.tsx","./src/components/sidebar.tsx","./src/components/topbar.tsx","./src/core/gitengine.ts","./src/core/storage.ts","./src/core/store.ts","./src/features/roadmap/roadmap.tsx","./src/types/domain.ts"],"version":"5.8.3"}

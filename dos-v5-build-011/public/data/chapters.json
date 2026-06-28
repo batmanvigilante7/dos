@@ -1,0 +1,1419 @@
+[
+  {
+    "id": 1,
+    "code": "DOS-01",
+    "moduleId": "foundations",
+    "moduleTitle": "Computer Foundations",
+    "moduleIcon": "🧱",
+    "title": "Why Developers Need Systems, Not Memory",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Why Developers Need Systems, Not Memory.",
+    "difficulty": "Beginner",
+    "estimatedTime": "15 min",
+    "prerequisites": [],
+    "contentStatus": "outline",
+    "type": "concept"
+  },
+  {
+    "id": 2,
+    "code": "DOS-02",
+    "moduleId": "foundations",
+    "moduleTitle": "Computer Foundations",
+    "moduleIcon": "🧱",
+    "title": "What is a Computer?",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of What is a Computer?.",
+    "difficulty": "Beginner",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-01"
+    ],
+    "contentStatus": "outline",
+    "type": "concept"
+  },
+  {
+    "id": 3,
+    "code": "DOS-03",
+    "moduleId": "foundations",
+    "moduleTitle": "Computer Foundations",
+    "moduleIcon": "🧱",
+    "title": "Hardware vs Software",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Hardware vs Software.",
+    "difficulty": "Beginner",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-02"
+    ],
+    "contentStatus": "outline",
+    "type": "concept"
+  },
+  {
+    "id": 4,
+    "code": "DOS-04",
+    "moduleId": "foundations",
+    "moduleTitle": "Computer Foundations",
+    "moduleIcon": "🧱",
+    "title": "Operating Systems",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Operating Systems.",
+    "difficulty": "Beginner",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-03"
+    ],
+    "contentStatus": "outline",
+    "type": "concept"
+  },
+  {
+    "id": 5,
+    "code": "DOS-05",
+    "moduleId": "foundations",
+    "moduleTitle": "Computer Foundations",
+    "moduleIcon": "🧱",
+    "title": "Files & Folders",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Files & Folders.",
+    "difficulty": "Beginner",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-04"
+    ],
+    "contentStatus": "outline",
+    "type": "concept"
+  },
+  {
+    "id": 6,
+    "code": "DOS-06",
+    "moduleId": "foundations",
+    "moduleTitle": "Computer Foundations",
+    "moduleIcon": "🧱",
+    "title": "File Systems",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of File Systems.",
+    "difficulty": "Beginner",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-05"
+    ],
+    "contentStatus": "outline",
+    "type": "architecture"
+  },
+  {
+    "id": 7,
+    "code": "DOS-07",
+    "moduleId": "foundations",
+    "moduleTitle": "Computer Foundations",
+    "moduleIcon": "🧱",
+    "title": "Paths",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Paths.",
+    "difficulty": "Beginner",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-06"
+    ],
+    "contentStatus": "outline",
+    "type": "concept"
+  },
+  {
+    "id": 8,
+    "code": "DOS-08",
+    "moduleId": "foundations",
+    "moduleTitle": "Computer Foundations",
+    "moduleIcon": "🧱",
+    "title": "Environment Variables",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Environment Variables.",
+    "difficulty": "Beginner",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-07"
+    ],
+    "contentStatus": "outline",
+    "type": "concept"
+  },
+  {
+    "id": 9,
+    "code": "DOS-09",
+    "moduleId": "foundations",
+    "moduleTitle": "Computer Foundations",
+    "moduleIcon": "🧱",
+    "title": "Shell, Terminal & Console",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Shell, Terminal & Console.",
+    "difficulty": "Beginner",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-04"
+    ],
+    "contentStatus": "outline",
+    "type": "concept"
+  },
+  {
+    "id": 10,
+    "code": "DOS-10",
+    "moduleId": "foundations",
+    "moduleTitle": "Computer Foundations",
+    "moduleIcon": "🧱",
+    "title": "Essential Terminal Commands",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Essential Terminal Commands.",
+    "difficulty": "Beginner",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-09",
+      "DOS-07"
+    ],
+    "contentStatus": "outline",
+    "type": "command"
+  },
+  {
+    "id": 11,
+    "code": "DOS-11",
+    "moduleId": "vscode",
+    "moduleTitle": "VS Code",
+    "moduleIcon": "🖥",
+    "title": "What is VS Code?",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of What is VS Code?.",
+    "difficulty": "Beginner",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-04"
+    ],
+    "contentStatus": "outline",
+    "type": "concept"
+  },
+  {
+    "id": 12,
+    "code": "DOS-12",
+    "moduleId": "vscode",
+    "moduleTitle": "VS Code",
+    "moduleIcon": "🖥",
+    "title": "Installation & Setup",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Installation & Setup.",
+    "difficulty": "Beginner",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-11"
+    ],
+    "contentStatus": "outline",
+    "type": "practice"
+  },
+  {
+    "id": 13,
+    "code": "DOS-13",
+    "moduleId": "vscode",
+    "moduleTitle": "VS Code",
+    "moduleIcon": "🖥",
+    "title": "VS Code Interface",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of VS Code Interface.",
+    "difficulty": "Beginner",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-12"
+    ],
+    "contentStatus": "outline",
+    "type": "concept"
+  },
+  {
+    "id": 14,
+    "code": "DOS-14",
+    "moduleId": "vscode",
+    "moduleTitle": "VS Code",
+    "moduleIcon": "🖥",
+    "title": "Explorer",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Explorer.",
+    "difficulty": "Beginner",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-13",
+      "DOS-05"
+    ],
+    "contentStatus": "outline",
+    "type": "tool"
+  },
+  {
+    "id": 15,
+    "code": "DOS-15",
+    "moduleId": "vscode",
+    "moduleTitle": "VS Code",
+    "moduleIcon": "🖥",
+    "title": "Editing Files",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Editing Files.",
+    "difficulty": "Beginner",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-14"
+    ],
+    "contentStatus": "outline",
+    "type": "practice"
+  },
+  {
+    "id": 16,
+    "code": "DOS-16",
+    "moduleId": "vscode",
+    "moduleTitle": "VS Code",
+    "moduleIcon": "🖥",
+    "title": "Search",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Search.",
+    "difficulty": "Beginner",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-14"
+    ],
+    "contentStatus": "outline",
+    "type": "tool"
+  },
+  {
+    "id": 17,
+    "code": "DOS-17",
+    "moduleId": "vscode",
+    "moduleTitle": "VS Code",
+    "moduleIcon": "🖥",
+    "title": "Extensions",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Extensions.",
+    "difficulty": "Beginner",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-13"
+    ],
+    "contentStatus": "outline",
+    "type": "tool"
+  },
+  {
+    "id": 18,
+    "code": "DOS-18",
+    "moduleId": "vscode",
+    "moduleTitle": "VS Code",
+    "moduleIcon": "🖥",
+    "title": "Command Palette",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Command Palette.",
+    "difficulty": "Beginner",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-13"
+    ],
+    "contentStatus": "outline",
+    "type": "tool"
+  },
+  {
+    "id": 19,
+    "code": "DOS-19",
+    "moduleId": "vscode",
+    "moduleTitle": "VS Code",
+    "moduleIcon": "🖥",
+    "title": "Integrated Terminal",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Integrated Terminal.",
+    "difficulty": "Beginner",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-13",
+      "DOS-10"
+    ],
+    "contentStatus": "outline",
+    "type": "tool"
+  },
+  {
+    "id": 20,
+    "code": "DOS-20",
+    "moduleId": "vscode",
+    "moduleTitle": "VS Code",
+    "moduleIcon": "🖥",
+    "title": "Settings & Profiles",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Settings & Profiles.",
+    "difficulty": "Beginner",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-13"
+    ],
+    "contentStatus": "outline",
+    "type": "tool"
+  },
+  {
+    "id": 21,
+    "code": "DOS-21",
+    "moduleId": "vscode",
+    "moduleTitle": "VS Code",
+    "moduleIcon": "🖥",
+    "title": "Snippets",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Snippets.",
+    "difficulty": "Beginner",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-15"
+    ],
+    "contentStatus": "outline",
+    "type": "tool"
+  },
+  {
+    "id": 22,
+    "code": "DOS-22",
+    "moduleId": "vscode",
+    "moduleTitle": "VS Code",
+    "moduleIcon": "🖥",
+    "title": "Tasks",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Tasks.",
+    "difficulty": "Beginner",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-19"
+    ],
+    "contentStatus": "outline",
+    "type": "workflow"
+  },
+  {
+    "id": 23,
+    "code": "DOS-23",
+    "moduleId": "vscode",
+    "moduleTitle": "VS Code",
+    "moduleIcon": "🖥",
+    "title": "Debugging",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Debugging.",
+    "difficulty": "Beginner",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-19"
+    ],
+    "contentStatus": "outline",
+    "type": "tool"
+  },
+  {
+    "id": 24,
+    "code": "DOS-24",
+    "moduleId": "vscode",
+    "moduleTitle": "VS Code",
+    "moduleIcon": "🖥",
+    "title": "Workspace Management",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Workspace Management.",
+    "difficulty": "Beginner",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-14"
+    ],
+    "contentStatus": "outline",
+    "type": "workflow"
+  },
+  {
+    "id": 25,
+    "code": "DOS-25",
+    "moduleId": "vscode",
+    "moduleTitle": "VS Code",
+    "moduleIcon": "🖥",
+    "title": "Remote Development",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Remote Development.",
+    "difficulty": "Beginner",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-17",
+      "DOS-19"
+    ],
+    "contentStatus": "outline",
+    "type": "workflow"
+  },
+  {
+    "id": 26,
+    "code": "DOS-26",
+    "moduleId": "git-foundations",
+    "moduleTitle": "Git Foundations",
+    "moduleIcon": "🌿",
+    "title": "Version Control",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Version Control.",
+    "difficulty": "Beginner",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-05"
+    ],
+    "contentStatus": "outline",
+    "type": "concept"
+  },
+  {
+    "id": 27,
+    "code": "DOS-27",
+    "moduleId": "git-foundations",
+    "moduleTitle": "Git Foundations",
+    "moduleIcon": "🌿",
+    "title": "Why Git?",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Why Git?.",
+    "difficulty": "Beginner",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-26"
+    ],
+    "contentStatus": "outline",
+    "type": "concept"
+  },
+  {
+    "id": 28,
+    "code": "DOS-28",
+    "moduleId": "git-foundations",
+    "moduleTitle": "Git Foundations",
+    "moduleIcon": "🌿",
+    "title": "Installing Git",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Installing Git.",
+    "difficulty": "Beginner",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-27",
+      "DOS-12"
+    ],
+    "contentStatus": "outline",
+    "type": "practice"
+  },
+  {
+    "id": 29,
+    "code": "DOS-29",
+    "moduleId": "git-foundations",
+    "moduleTitle": "Git Foundations",
+    "moduleIcon": "🌿",
+    "title": "Git Configuration",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Git Configuration.",
+    "difficulty": "Beginner",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-28"
+    ],
+    "contentStatus": "outline",
+    "type": "command"
+  },
+  {
+    "id": 30,
+    "code": "DOS-30",
+    "moduleId": "git-foundations",
+    "moduleTitle": "Git Foundations",
+    "moduleIcon": "🌿",
+    "title": "Repository",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Repository.",
+    "difficulty": "Beginner",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-29"
+    ],
+    "contentStatus": "outline",
+    "type": "concept"
+  },
+  {
+    "id": 31,
+    "code": "DOS-31",
+    "moduleId": "git-foundations",
+    "moduleTitle": "Git Foundations",
+    "moduleIcon": "🌿",
+    "title": "Working Directory",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Working Directory.",
+    "difficulty": "Beginner",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-30"
+    ],
+    "contentStatus": "outline",
+    "type": "concept"
+  },
+  {
+    "id": 32,
+    "code": "DOS-32",
+    "moduleId": "git-foundations",
+    "moduleTitle": "Git Foundations",
+    "moduleIcon": "🌿",
+    "title": "Staging Area",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Staging Area.",
+    "difficulty": "Beginner",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-31"
+    ],
+    "contentStatus": "outline",
+    "type": "concept"
+  },
+  {
+    "id": 33,
+    "code": "DOS-33",
+    "moduleId": "git-foundations",
+    "moduleTitle": "Git Foundations",
+    "moduleIcon": "🌿",
+    "title": "Commits",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Commits.",
+    "difficulty": "Beginner",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-32"
+    ],
+    "contentStatus": "outline",
+    "type": "concept"
+  },
+  {
+    "id": 34,
+    "code": "DOS-34",
+    "moduleId": "git-foundations",
+    "moduleTitle": "Git Foundations",
+    "moduleIcon": "🌿",
+    "title": "History",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of History.",
+    "difficulty": "Beginner",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-33"
+    ],
+    "contentStatus": "outline",
+    "type": "concept"
+  },
+  {
+    "id": 35,
+    "code": "DOS-35",
+    "moduleId": "git-foundations",
+    "moduleTitle": "Git Foundations",
+    "moduleIcon": "🌿",
+    "title": "git status",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of git status.",
+    "difficulty": "Beginner",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-31",
+      "DOS-32"
+    ],
+    "contentStatus": "outline",
+    "type": "command"
+  },
+  {
+    "id": 36,
+    "code": "DOS-36",
+    "moduleId": "git-internals",
+    "moduleTitle": "Git Internals",
+    "moduleIcon": "🧠",
+    "title": "git diff",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of git diff.",
+    "difficulty": "Beginner",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-35"
+    ],
+    "contentStatus": "outline",
+    "type": "command"
+  },
+  {
+    "id": 37,
+    "code": "DOS-37",
+    "moduleId": "git-internals",
+    "moduleTitle": "Git Internals",
+    "moduleIcon": "🧠",
+    "title": ".gitignore",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of .gitignore.",
+    "difficulty": "Intermediate",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-31"
+    ],
+    "contentStatus": "outline",
+    "type": "architecture"
+  },
+  {
+    "id": 38,
+    "code": "DOS-38",
+    "moduleId": "git-internals",
+    "moduleTitle": "Git Internals",
+    "moduleIcon": "🧠",
+    "title": "Undoing Changes",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Undoing Changes.",
+    "difficulty": "Intermediate",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-33"
+    ],
+    "contentStatus": "outline",
+    "type": "command"
+  },
+  {
+    "id": 39,
+    "code": "DOS-39",
+    "moduleId": "git-internals",
+    "moduleTitle": "Git Internals",
+    "moduleIcon": "🧠",
+    "title": "Git Best Practices",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Git Best Practices.",
+    "difficulty": "Intermediate",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-34"
+    ],
+    "contentStatus": "outline",
+    "type": "workflow"
+  },
+  {
+    "id": 40,
+    "code": "DOS-40",
+    "moduleId": "git-internals",
+    "moduleTitle": "Git Internals",
+    "moduleIcon": "🧠",
+    "title": "Git Objects",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Git Objects.",
+    "difficulty": "Intermediate",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-33"
+    ],
+    "contentStatus": "outline",
+    "type": "architecture"
+  },
+  {
+    "id": 41,
+    "code": "DOS-41",
+    "moduleId": "branching",
+    "moduleTitle": "Branching & History",
+    "moduleIcon": "🌳",
+    "title": "Blob",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Blob.",
+    "difficulty": "Intermediate",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-40"
+    ],
+    "contentStatus": "outline",
+    "type": "architecture"
+  },
+  {
+    "id": 42,
+    "code": "DOS-42",
+    "moduleId": "branching",
+    "moduleTitle": "Branching & History",
+    "moduleIcon": "🌳",
+    "title": "Tree",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Tree.",
+    "difficulty": "Intermediate",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-41"
+    ],
+    "contentStatus": "outline",
+    "type": "architecture"
+  },
+  {
+    "id": 43,
+    "code": "DOS-43",
+    "moduleId": "branching",
+    "moduleTitle": "Branching & History",
+    "moduleIcon": "🌳",
+    "title": "Commit Object",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Commit Object.",
+    "difficulty": "Intermediate",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-42"
+    ],
+    "contentStatus": "outline",
+    "type": "architecture"
+  },
+  {
+    "id": 44,
+    "code": "DOS-44",
+    "moduleId": "branching",
+    "moduleTitle": "Branching & History",
+    "moduleIcon": "🌳",
+    "title": "SHA Hashing",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of SHA Hashing.",
+    "difficulty": "Intermediate",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-40"
+    ],
+    "contentStatus": "outline",
+    "type": "architecture"
+  },
+  {
+    "id": 45,
+    "code": "DOS-45",
+    "moduleId": "branching",
+    "moduleTitle": "Branching & History",
+    "moduleIcon": "🌳",
+    "title": "HEAD",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of HEAD.",
+    "difficulty": "Intermediate",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-34"
+    ],
+    "contentStatus": "outline",
+    "type": "concept"
+  },
+  {
+    "id": 46,
+    "code": "DOS-46",
+    "moduleId": "branching",
+    "moduleTitle": "Branching & History",
+    "moduleIcon": "🌳",
+    "title": "References",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of References.",
+    "difficulty": "Intermediate",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-45"
+    ],
+    "contentStatus": "outline",
+    "type": "architecture"
+  },
+  {
+    "id": 47,
+    "code": "DOS-47",
+    "moduleId": "branching",
+    "moduleTitle": "Branching & History",
+    "moduleIcon": "🌳",
+    "title": "Tags",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Tags.",
+    "difficulty": "Intermediate",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-46"
+    ],
+    "contentStatus": "outline",
+    "type": "concept"
+  },
+  {
+    "id": 48,
+    "code": "DOS-48",
+    "moduleId": "branching",
+    "moduleTitle": "Branching & History",
+    "moduleIcon": "🌳",
+    "title": "Reflog",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Reflog.",
+    "difficulty": "Intermediate",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-46"
+    ],
+    "contentStatus": "outline",
+    "type": "architecture"
+  },
+  {
+    "id": 49,
+    "code": "DOS-49",
+    "moduleId": "branching",
+    "moduleTitle": "Branching & History",
+    "moduleIcon": "🌳",
+    "title": "Branches",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Branches.",
+    "difficulty": "Intermediate",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-46"
+    ],
+    "contentStatus": "outline",
+    "type": "concept"
+  },
+  {
+    "id": 50,
+    "code": "DOS-50",
+    "moduleId": "branching",
+    "moduleTitle": "Branching & History",
+    "moduleIcon": "🌳",
+    "title": "Checkout",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Checkout.",
+    "difficulty": "Intermediate",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-49"
+    ],
+    "contentStatus": "outline",
+    "type": "command"
+  },
+  {
+    "id": 51,
+    "code": "DOS-51",
+    "moduleId": "branching",
+    "moduleTitle": "Branching & History",
+    "moduleIcon": "🌳",
+    "title": "Merge",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Merge.",
+    "difficulty": "Intermediate",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-50"
+    ],
+    "contentStatus": "outline",
+    "type": "command"
+  },
+  {
+    "id": 52,
+    "code": "DOS-52",
+    "moduleId": "branching",
+    "moduleTitle": "Branching & History",
+    "moduleIcon": "🌳",
+    "title": "Merge Conflicts",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Merge Conflicts.",
+    "difficulty": "Intermediate",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-51"
+    ],
+    "contentStatus": "outline",
+    "type": "concept"
+  },
+  {
+    "id": 53,
+    "code": "DOS-53",
+    "moduleId": "github",
+    "moduleTitle": "GitHub Platform",
+    "moduleIcon": "☁",
+    "title": "Rebase",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Rebase.",
+    "difficulty": "Intermediate",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-51"
+    ],
+    "contentStatus": "outline",
+    "type": "command"
+  },
+  {
+    "id": 54,
+    "code": "DOS-54",
+    "moduleId": "github",
+    "moduleTitle": "GitHub Platform",
+    "moduleIcon": "☁",
+    "title": "Cherry Pick",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Cherry Pick.",
+    "difficulty": "Intermediate",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-50"
+    ],
+    "contentStatus": "outline",
+    "type": "command"
+  },
+  {
+    "id": 55,
+    "code": "DOS-55",
+    "moduleId": "github",
+    "moduleTitle": "GitHub Platform",
+    "moduleIcon": "☁",
+    "title": "Stash",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Stash.",
+    "difficulty": "Intermediate",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-50"
+    ],
+    "contentStatus": "outline",
+    "type": "command"
+  },
+  {
+    "id": 56,
+    "code": "DOS-56",
+    "moduleId": "github",
+    "moduleTitle": "GitHub Platform",
+    "moduleIcon": "☁",
+    "title": "Worktrees",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Worktrees.",
+    "difficulty": "Intermediate",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-50"
+    ],
+    "contentStatus": "outline",
+    "type": "architecture"
+  },
+  {
+    "id": 57,
+    "code": "DOS-57",
+    "moduleId": "github",
+    "moduleTitle": "GitHub Platform",
+    "moduleIcon": "☁",
+    "title": "Git Hooks",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Git Hooks.",
+    "difficulty": "Intermediate",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-40"
+    ],
+    "contentStatus": "outline",
+    "type": "architecture"
+  },
+  {
+    "id": 58,
+    "code": "DOS-58",
+    "moduleId": "github",
+    "moduleTitle": "GitHub Platform",
+    "moduleIcon": "☁",
+    "title": "Submodules",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Submodules.",
+    "difficulty": "Intermediate",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-30"
+    ],
+    "contentStatus": "outline",
+    "type": "architecture"
+  },
+  {
+    "id": 59,
+    "code": "DOS-59",
+    "moduleId": "github",
+    "moduleTitle": "GitHub Platform",
+    "moduleIcon": "☁",
+    "title": "Git vs GitHub",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Git vs GitHub.",
+    "difficulty": "Intermediate",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-27"
+    ],
+    "contentStatus": "outline",
+    "type": "concept"
+  },
+  {
+    "id": 60,
+    "code": "DOS-60",
+    "moduleId": "github",
+    "moduleTitle": "GitHub Platform",
+    "moduleIcon": "☁",
+    "title": "GitHub Account",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of GitHub Account.",
+    "difficulty": "Intermediate",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-59"
+    ],
+    "contentStatus": "outline",
+    "type": "practice"
+  },
+  {
+    "id": 61,
+    "code": "DOS-61",
+    "moduleId": "github",
+    "moduleTitle": "GitHub Platform",
+    "moduleIcon": "☁",
+    "title": "Repositories",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Repositories.",
+    "difficulty": "Intermediate",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-60",
+      "DOS-30"
+    ],
+    "contentStatus": "outline",
+    "type": "concept"
+  },
+  {
+    "id": 62,
+    "code": "DOS-62",
+    "moduleId": "github",
+    "moduleTitle": "GitHub Platform",
+    "moduleIcon": "☁",
+    "title": "Remotes",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Remotes.",
+    "difficulty": "Intermediate",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-61"
+    ],
+    "contentStatus": "outline",
+    "type": "concept"
+  },
+  {
+    "id": 63,
+    "code": "DOS-63",
+    "moduleId": "github",
+    "moduleTitle": "GitHub Platform",
+    "moduleIcon": "☁",
+    "title": "Push / Pull",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Push / Pull.",
+    "difficulty": "Intermediate",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-62"
+    ],
+    "contentStatus": "outline",
+    "type": "command"
+  },
+  {
+    "id": 64,
+    "code": "DOS-64",
+    "moduleId": "github",
+    "moduleTitle": "GitHub Platform",
+    "moduleIcon": "☁",
+    "title": "Clone",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Clone.",
+    "difficulty": "Intermediate",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-62"
+    ],
+    "contentStatus": "outline",
+    "type": "command"
+  },
+  {
+    "id": 65,
+    "code": "DOS-65",
+    "moduleId": "github",
+    "moduleTitle": "GitHub Platform",
+    "moduleIcon": "☁",
+    "title": "Fork",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Fork.",
+    "difficulty": "Intermediate",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-64"
+    ],
+    "contentStatus": "outline",
+    "type": "concept"
+  },
+  {
+    "id": 66,
+    "code": "DOS-66",
+    "moduleId": "github",
+    "moduleTitle": "GitHub Platform",
+    "moduleIcon": "☁",
+    "title": "Pull Requests",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Pull Requests.",
+    "difficulty": "Intermediate",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-63"
+    ],
+    "contentStatus": "outline",
+    "type": "workflow"
+  },
+  {
+    "id": 67,
+    "code": "DOS-67",
+    "moduleId": "debugging",
+    "moduleTitle": "Debugging & Troubleshooting",
+    "moduleIcon": "🐞",
+    "title": "Code Reviews",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Code Reviews.",
+    "difficulty": "Intermediate",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-66"
+    ],
+    "contentStatus": "outline",
+    "type": "workflow"
+  },
+  {
+    "id": 68,
+    "code": "DOS-68",
+    "moduleId": "debugging",
+    "moduleTitle": "Debugging & Troubleshooting",
+    "moduleIcon": "🐞",
+    "title": "Issues",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Issues.",
+    "difficulty": "Intermediate",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-61"
+    ],
+    "contentStatus": "outline",
+    "type": "tool"
+  },
+  {
+    "id": 69,
+    "code": "DOS-69",
+    "moduleId": "debugging",
+    "moduleTitle": "Debugging & Troubleshooting",
+    "moduleIcon": "🐞",
+    "title": "Projects",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Projects.",
+    "difficulty": "Intermediate",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-68"
+    ],
+    "contentStatus": "outline",
+    "type": "tool"
+  },
+  {
+    "id": 70,
+    "code": "DOS-70",
+    "moduleId": "debugging",
+    "moduleTitle": "Debugging & Troubleshooting",
+    "moduleIcon": "🐞",
+    "title": "Releases",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Releases.",
+    "difficulty": "Advanced",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-61"
+    ],
+    "contentStatus": "outline",
+    "type": "workflow"
+  },
+  {
+    "id": 71,
+    "code": "DOS-71",
+    "moduleId": "debugging",
+    "moduleTitle": "Debugging & Troubleshooting",
+    "moduleIcon": "🐞",
+    "title": "GitHub Actions",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of GitHub Actions.",
+    "difficulty": "Advanced",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-61"
+    ],
+    "contentStatus": "outline",
+    "type": "tool"
+  },
+  {
+    "id": 72,
+    "code": "DOS-72",
+    "moduleId": "debugging",
+    "moduleTitle": "Debugging & Troubleshooting",
+    "moduleIcon": "🐞",
+    "title": "GitHub CLI",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of GitHub CLI.",
+    "difficulty": "Advanced",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-60",
+      "DOS-10"
+    ],
+    "contentStatus": "outline",
+    "type": "tool"
+  },
+  {
+    "id": 73,
+    "code": "DOS-73",
+    "moduleId": "debugging",
+    "moduleTitle": "Debugging & Troubleshooting",
+    "moduleIcon": "🐞",
+    "title": "GitHub Pages",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of GitHub Pages.",
+    "difficulty": "Advanced",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-61"
+    ],
+    "contentStatus": "outline",
+    "type": "tool"
+  },
+  {
+    "id": 74,
+    "code": "DOS-74",
+    "moduleId": "workflow",
+    "moduleTitle": "Professional Developer Workflow",
+    "moduleIcon": "🚀",
+    "title": "GitHub Security",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of GitHub Security.",
+    "difficulty": "Advanced",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-60"
+    ],
+    "contentStatus": "outline",
+    "type": "concept"
+  },
+  {
+    "id": 75,
+    "code": "DOS-75",
+    "moduleId": "workflow",
+    "moduleTitle": "Professional Developer Workflow",
+    "moduleIcon": "🚀",
+    "title": "Debugging Mindset",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Debugging Mindset.",
+    "difficulty": "Advanced",
+    "estimatedTime": "15 min",
+    "prerequisites": [],
+    "contentStatus": "outline",
+    "type": "concept"
+  },
+  {
+    "id": 76,
+    "code": "DOS-76",
+    "moduleId": "workflow",
+    "moduleTitle": "Professional Developer Workflow",
+    "moduleIcon": "🚀",
+    "title": "Reading Errors",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Reading Errors.",
+    "difficulty": "Advanced",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-75"
+    ],
+    "contentStatus": "outline",
+    "type": "concept"
+  },
+  {
+    "id": 77,
+    "code": "DOS-77",
+    "moduleId": "workflow",
+    "moduleTitle": "Professional Developer Workflow",
+    "moduleIcon": "🚀",
+    "title": "Console Logging",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Console Logging.",
+    "difficulty": "Advanced",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-76"
+    ],
+    "contentStatus": "outline",
+    "type": "practice"
+  },
+  {
+    "id": 78,
+    "code": "DOS-78",
+    "moduleId": "workflow",
+    "moduleTitle": "Professional Developer Workflow",
+    "moduleIcon": "🚀",
+    "title": "Breakpoints",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Breakpoints.",
+    "difficulty": "Advanced",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-23",
+      "DOS-76"
+    ],
+    "contentStatus": "outline",
+    "type": "concept"
+  },
+  {
+    "id": 79,
+    "code": "DOS-79",
+    "moduleId": "workflow",
+    "moduleTitle": "Professional Developer Workflow",
+    "moduleIcon": "🚀",
+    "title": "Variables",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Variables.",
+    "difficulty": "Advanced",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-78"
+    ],
+    "contentStatus": "outline",
+    "type": "concept"
+  },
+  {
+    "id": 80,
+    "code": "DOS-80",
+    "moduleId": "workflow",
+    "moduleTitle": "Professional Developer Workflow",
+    "moduleIcon": "🚀",
+    "title": "Call Stack",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Call Stack.",
+    "difficulty": "Advanced",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-78"
+    ],
+    "contentStatus": "outline",
+    "type": "architecture"
+  },
+  {
+    "id": 81,
+    "code": "DOS-81",
+    "moduleId": "workflow",
+    "moduleTitle": "Professional Developer Workflow",
+    "moduleIcon": "🚀",
+    "title": "Exceptions",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Exceptions.",
+    "difficulty": "Advanced",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-76"
+    ],
+    "contentStatus": "outline",
+    "type": "concept"
+  },
+  {
+    "id": 82,
+    "code": "DOS-82",
+    "moduleId": "workflow",
+    "moduleTitle": "Professional Developer Workflow",
+    "moduleIcon": "🚀",
+    "title": "Debug Configurations",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Debug Configurations.",
+    "difficulty": "Advanced",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-78"
+    ],
+    "contentStatus": "outline",
+    "type": "tool"
+  },
+  {
+    "id": 83,
+    "code": "DOS-83",
+    "moduleId": "workflow",
+    "moduleTitle": "Professional Developer Workflow",
+    "moduleIcon": "🚀",
+    "title": "Idea → Code",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Idea → Code.",
+    "difficulty": "Advanced",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-15"
+    ],
+    "contentStatus": "outline",
+    "type": "workflow"
+  },
+  {
+    "id": 84,
+    "code": "DOS-84",
+    "moduleId": "workflow",
+    "moduleTitle": "Professional Developer Workflow",
+    "moduleIcon": "🚀",
+    "title": "Code → Commit",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Code → Commit.",
+    "difficulty": "Advanced",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-83",
+      "DOS-33"
+    ],
+    "contentStatus": "outline",
+    "type": "workflow"
+  },
+  {
+    "id": 85,
+    "code": "DOS-85",
+    "moduleId": "workflow",
+    "moduleTitle": "Professional Developer Workflow",
+    "moduleIcon": "🚀",
+    "title": "Commit → Pull Request",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Commit → Pull Request.",
+    "difficulty": "Advanced",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-84",
+      "DOS-66"
+    ],
+    "contentStatus": "outline",
+    "type": "workflow"
+  },
+  {
+    "id": 86,
+    "code": "DOS-86",
+    "moduleId": "workflow",
+    "moduleTitle": "Professional Developer Workflow",
+    "moduleIcon": "🚀",
+    "title": "Team Collaboration",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Team Collaboration.",
+    "difficulty": "Advanced",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-85",
+      "DOS-67"
+    ],
+    "contentStatus": "outline",
+    "type": "workflow"
+  },
+  {
+    "id": 87,
+    "code": "DOS-87",
+    "moduleId": "workflow",
+    "moduleTitle": "Professional Developer Workflow",
+    "moduleIcon": "🚀",
+    "title": "Open Source Contribution",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Open Source Contribution.",
+    "difficulty": "Advanced",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-86",
+      "DOS-65"
+    ],
+    "contentStatus": "outline",
+    "type": "workflow"
+  },
+  {
+    "id": 88,
+    "code": "DOS-88",
+    "moduleId": "workflow",
+    "moduleTitle": "Professional Developer Workflow",
+    "moduleIcon": "🚀",
+    "title": "Becoming a Professional Developer",
+    "outcome": "Master the key concepts, syntax workflow, and best practices of Becoming a Professional Developer.",
+    "difficulty": "Advanced",
+    "estimatedTime": "15 min",
+    "prerequisites": [
+      "DOS-86"
+    ],
+    "contentStatus": "outline",
+    "type": "concept"
+  }
+]

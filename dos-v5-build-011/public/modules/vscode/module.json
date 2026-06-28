@@ -1,0 +1,62 @@
+{
+  "id": "module:vscode",
+  "title": "VS Code Workspace",
+  "slug": "vscode-workspace",
+  "description": "Configure editing environments, snippets, and integrated terminals.",
+  "icon": "🖥",
+  "difficulty": "beginner",
+  "estimatedTime": "200 min",
+  "xpReward": 1500,
+  "status": "not-started",
+  "prerequisites": ["module:foundations"],
+  "relatedNodes": [],
+  "children": [
+    {
+      "id": "node:vscode:interface",
+      "title": "VS Code Core Interface",
+      "slug": "vscode-interface",
+      "description": "Familiarize yourself with the sidebar, panels, editor groups, and status indicators.",
+      "icon": "💻",
+      "difficulty": "beginner",
+      "estimatedTime": "25 min",
+      "xpReward": 120,
+      "status": "not-started",
+      "prerequisites": [],
+      "relatedNodes": [],
+      "children": [
+        {
+          "id": "knode:vscode:sidebar",
+          "title": "Sidebar & Explorer",
+          "slug": "sidebar-explorer",
+          "description": "Manage files, search contents, and edit layouts.",
+          "icon": "📂",
+          "difficulty": "beginner",
+          "estimatedTime": "12 min",
+          "xpReward": 60,
+          "status": "not-started",
+          "prerequisites": [],
+          "relatedNodes": [],
+          "children": [
+            {
+              "id": "concept:vscode:workspace-files",
+              "title": "Workspace Files Editing",
+              "slug": "workspace-editing",
+              "description": "Best practices for editing and managing workspace files.",
+              "icon": "📝",
+              "difficulty": "beginner",
+              "estimatedTime": "6 min",
+              "xpReward": 25,
+              "status": "not-started",
+              "prerequisites": [],
+              "relatedNodes": [],
+              "experiences": [
+                { "id": "exp:vscode:edit:lesson", "type": "lesson", "title": "Editing and Managing Files", "xpReward": 10 },
+                { "id": "exp:vscode:edit:playground", "type": "playground", "title": "VS Code Editor Simulator Lab", "xpReward": 25 }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

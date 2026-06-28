@@ -1,0 +1,76 @@
+{
+  "title": "The Developer Operating System",
+  "summary": "An introduction to the mental model, practical workspace, and file system navigation of The Developer Operating System.",
+  "learningOutcomes": [
+    "Understand the core abstractions of a modern developer workspace",
+    "Navigate directories and manage files using standard command line tools",
+    "Stage and version files using a local repository system"
+  ],
+  "prerequisites": [],
+  "commands": [
+    "mkdir [dir] - Create a new directory",
+    "touch [file] - Create an empty file",
+    "ls - List contents of current directory",
+    "cd [dir] - Change directories"
+  ],
+  "examples": [
+    {
+      "code": "mkdir src\ntouch src/index.js\nls src/",
+      "description": "Creating a source folder and adding a script file inside it."
+    }
+  ],
+  "mistakes": [
+    {
+      "title": "Changing to non-existent folder",
+      "solution": "Check your spelling and use 'ls' to verify directory name before executing 'cd'."
+    }
+  ],
+  "resources": [
+    {
+      "title": "Introduction to POSIX Terminal",
+      "url": "https://linuxcommand.org/"
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which command is used to create a new directory?",
+      "options": ["touch", "mkdir", "cd", "ls"],
+      "answerIndex": 1
+    },
+    {
+      "question": "What does 'cd ..' do?",
+      "options": ["Navigate to parent directory", "Create a folder named dot dot", "Clear directory contents", "Change to user root"],
+      "answerIndex": 0
+    }
+  ],
+  "challenge": {
+    "title": "Setup workspace and file",
+    "instructions": "Create a directory named 'src', change into it, and create a file named 'app.js'.",
+    "validationCommand": "check_workspace",
+    "successMessage": "Challenge Completed! You set up the workspace."
+  },
+  "playground": {
+    "type": "terminal",
+    "starterFiles": {
+      "README.md": "# Foundations Lab\nCreate your directory structure here."
+    },
+    "tasks": [
+      {
+        "id": 1,
+        "description": "Create a directory named 'src'",
+        "validation": "dir:src"
+      },
+      {
+        "id": 2,
+        "description": "Change directory into 'src'",
+        "validation": "pwd:src"
+      },
+      {
+        "id": 3,
+        "description": "Create a file named 'app.js'",
+        "validation": "file:src/app.js"
+      }
+    ],
+    "expectedOutput": "src/app.js exists"
+  }
+}

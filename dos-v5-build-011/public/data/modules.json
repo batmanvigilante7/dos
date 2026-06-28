@@ -1,0 +1,44 @@
+[
+  {
+    "id": "module:foundations",
+    "title": "Computer Foundations",
+    "slug": "computer-foundations",
+    "description": "Before Git, before VS Code, before programming... How does a computer actually work?",
+    "icon": "🧱",
+    "difficulty": "beginner",
+    "estimatedTime": "150 min",
+    "xpReward": 1000,
+    "status": "not-started",
+    "prerequisites": [],
+    "relatedNodes": [],
+    "path": "/modules/foundations/module.json"
+  },
+  {
+    "id": "module:vscode",
+    "title": "VS Code Workspace",
+    "slug": "vscode-workspace",
+    "description": "Configure editing environments, snippets, and integrated terminals.",
+    "icon": "🖥",
+    "difficulty": "beginner",
+    "estimatedTime": "200 min",
+    "xpReward": 1500,
+    "status": "not-started",
+    "prerequisites": ["module:foundations"],
+    "relatedNodes": [],
+    "path": "/modules/vscode/module.json"
+  },
+  {
+    "id": "module:git",
+    "title": "Git & Version Control",
+    "slug": "git-version-control",
+    "description": "Learn staged snapshots, branching DAGs, merge conflicts, and object internals.",
+    "icon": "🌿",
+    "difficulty": "intermediate",
+    "estimatedTime": "350 min",
+    "xpReward": 2500,
+    "status": "not-started",
+    "prerequisites": ["module:foundations"],
+    "relatedNodes": [],
+    "path": "/modules/git/module.json"
+  }
+]

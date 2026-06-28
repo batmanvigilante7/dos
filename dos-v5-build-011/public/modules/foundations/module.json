@@ -1,0 +1,112 @@
+{
+  "id": "module:foundations",
+  "title": "Computer Foundations",
+  "slug": "computer-foundations",
+  "description": "Before Git, before VS Code, before programming... How does a computer actually work?",
+  "icon": "🧱",
+  "difficulty": "beginner",
+  "estimatedTime": "150 min",
+  "xpReward": 1000,
+  "status": "not-started",
+  "prerequisites": [],
+  "relatedNodes": [],
+  "children": [
+    {
+      "id": "node:foundations:systems",
+      "title": "Developer Mindset & Systems",
+      "slug": "systems-vs-memory",
+      "description": "Learn why developers focus on structural mental models rather than memorizing syntax.",
+      "icon": "🧠",
+      "difficulty": "beginner",
+      "estimatedTime": "20 min",
+      "xpReward": 100,
+      "status": "not-started",
+      "prerequisites": [],
+      "relatedNodes": [],
+      "children": [
+        {
+          "id": "knode:foundations:why-systems",
+          "title": "Systemic Thinking",
+          "slug": "systemic-thinking",
+          "description": "Deconstructing syntax into system state patterns.",
+          "icon": "⚙️",
+          "difficulty": "beginner",
+          "estimatedTime": "10 min",
+          "xpReward": 50,
+          "status": "not-started",
+          "prerequisites": [],
+          "relatedNodes": [],
+          "children": [
+            {
+              "id": "concept:foundations:abstractions",
+              "title": "Abstractions & Layers",
+              "slug": "abstractions-layers",
+              "description": "Understanding how software sits on hardware.",
+              "icon": "🧱",
+              "difficulty": "beginner",
+              "estimatedTime": "5 min",
+              "xpReward": 25,
+              "status": "not-started",
+              "prerequisites": [],
+              "relatedNodes": [],
+              "experiences": [
+                { "id": "exp:foundations:abs:lesson", "type": "lesson", "title": "Abstraction Layers Text", "xpReward": 10 },
+                { "id": "exp:foundations:abs:quiz", "type": "quiz", "title": "Outcome Checkpoints Quiz", "xpReward": 15 }
+              ],
+              "resources": [
+                { "title": "How Computers Work by Code.org", "url": "https://code.org/" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "node:foundations:filesystems",
+      "title": "Files, Folders & Paths",
+      "slug": "files-folders-paths",
+      "description": "Master how operating systems structure file trees, directories, and PATHs.",
+      "icon": "📁",
+      "difficulty": "beginner",
+      "estimatedTime": "30 min",
+      "xpReward": 150,
+      "status": "not-started",
+      "prerequisites": ["node:foundations:systems"],
+      "relatedNodes": [],
+      "children": [
+        {
+          "id": "knode:foundations:paths",
+          "title": "File System Paths",
+          "slug": "filesystem-paths",
+          "description": "Understanding relative and absolute addressing.",
+          "icon": "📍",
+          "difficulty": "beginner",
+          "estimatedTime": "15 min",
+          "xpReward": 80,
+          "status": "not-started",
+          "prerequisites": [],
+          "relatedNodes": [],
+          "children": [
+            {
+              "id": "concept:foundations:relative",
+              "title": "Relative Paths Addressing",
+              "slug": "relative-paths",
+              "description": "Addressing files relative to the current working directory.",
+              "icon": "🔗",
+              "difficulty": "beginner",
+              "estimatedTime": "8 min",
+              "xpReward": 30,
+              "status": "not-started",
+              "prerequisites": [],
+              "relatedNodes": [],
+              "experiences": [
+                { "id": "exp:foundations:rel:lesson", "type": "lesson", "title": "Relative Navigations", "xpReward": 10 },
+                { "id": "exp:foundations:rel:lab", "type": "lab", "title": "Terminal Directory Navigation Lab", "xpReward": 20 }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

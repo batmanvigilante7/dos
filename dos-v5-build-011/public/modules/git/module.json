@@ -1,0 +1,110 @@
+{
+  "id": "module:git",
+  "title": "Git & Version Control",
+  "slug": "git-version-control",
+  "description": "Learn staged snapshots, branching DAGs, merge conflicts, and object internals.",
+  "icon": "🌿",
+  "difficulty": "intermediate",
+  "estimatedTime": "350 min",
+  "xpReward": 2500,
+  "status": "not-started",
+  "prerequisites": ["module:foundations"],
+  "relatedNodes": [],
+  "children": [
+    {
+      "id": "node:git:basics",
+      "title": "Git Foundations",
+      "slug": "git-foundations",
+      "description": "Initialize repositories, stage modifications, commit snapshots, and review logs.",
+      "icon": "🌱",
+      "difficulty": "beginner",
+      "estimatedTime": "45 min",
+      "xpReward": 200,
+      "status": "not-started",
+      "prerequisites": [],
+      "relatedNodes": [],
+      "children": [
+        {
+          "id": "knode:git:commit-flow",
+          "title": "Stage & Commit Flow",
+          "slug": "stage-commit-flow",
+          "description": "Deep dive into git add, staging area indexes, and committing snapshots.",
+          "icon": "💾",
+          "difficulty": "beginner",
+          "estimatedTime": "20 min",
+          "xpReward": 90,
+          "status": "not-started",
+          "prerequisites": [],
+          "relatedNodes": [],
+          "children": [
+            {
+              "id": "concept:git:staged-index",
+              "title": "Staging Index",
+              "slug": "staging-index",
+              "description": "Understand how git stages file changes before a commit.",
+              "icon": "📦",
+              "difficulty": "beginner",
+              "estimatedTime": "10 min",
+              "xpReward": 40,
+              "status": "not-started",
+              "prerequisites": [],
+              "relatedNodes": [],
+              "experiences": [
+                { "id": "exp:git:stage:lesson", "type": "lesson", "title": "Staging Index Mechanics", "xpReward": 10 },
+                { "id": "exp:git:stage:playground", "type": "playground", "title": "Staging Sandbox terminal", "xpReward": 25 },
+                { "id": "exp:git:stage:quiz", "type": "quiz", "title": "Index Checkpoints Quiz", "xpReward": 15 }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "node:git:internals",
+      "title": "Git Object Internals",
+      "slug": "git-internals",
+      "description": "Analyze bloblets, trees, and commit hash objects inside the git repository.",
+      "icon": "🧠",
+      "difficulty": "advanced",
+      "estimatedTime": "60 min",
+      "xpReward": 300,
+      "status": "not-started",
+      "prerequisites": ["node:git:basics"],
+      "relatedNodes": [],
+      "children": [
+        {
+          "id": "knode:git:objects",
+          "title": "Git Database Objects",
+          "slug": "git-objects",
+          "description": "Inside the hidden .git/objects structure.",
+          "icon": "🏗️",
+          "difficulty": "advanced",
+          "estimatedTime": "30 min",
+          "xpReward": 120,
+          "status": "not-started",
+          "prerequisites": [],
+          "relatedNodes": [],
+          "children": [
+            {
+              "id": "concept:git:blob-tree",
+              "title": "Blobs vs Trees Objects",
+              "slug": "blobs-vs-trees",
+              "description": "How Git hashes file content and folder hierarchies separately.",
+              "icon": "🧬",
+              "difficulty": "advanced",
+              "estimatedTime": "15 min",
+              "xpReward": 50,
+              "status": "not-started",
+              "prerequisites": [],
+              "relatedNodes": [],
+              "experiences": [
+                { "id": "exp:git:intern:lesson", "type": "lesson", "title": "Inside Blobs & Trees", "xpReward": 15 },
+                { "id": "exp:git:intern:challenge", "type": "challenge", "title": "Verify Hash Output Challenge", "xpReward": 30 }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
