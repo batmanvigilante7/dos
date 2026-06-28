@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "dos",
+  "compatibility_date": "2026-06-28",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "dos-v5-build-011"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
